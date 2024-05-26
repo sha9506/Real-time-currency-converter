@@ -1,6 +1,7 @@
 body
 {
-    background-color: #ffffff;
+    background: linear-gradient( #0A146E 60%, white 50% );
+    background-repeat: no-repeat;
 }
 .landing-box
 {
@@ -13,7 +14,7 @@ body
 }
 .heading
 {
-    color: rgb(12, 22, 86);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 40px;
     text-align: center;
@@ -106,9 +107,16 @@ body
     font-weight: bold;
     background-color: white;
     color: rgb(12, 22, 86);
+    margin-top: 10px;
 }
 :hover.convert-button
 {
     background-color: rgba(33, 114, 255, 0.183);
     cursor: pointer;
+}           
+.circle
+{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
 }
